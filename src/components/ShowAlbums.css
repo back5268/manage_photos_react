@@ -1,0 +1,80 @@
+.showAlbums {
+    width: 80%;
+    margin: 0 auto;
+    height: calc(100vh - 56px);
+}
+
+.albums {
+    height: 100vh;
+}
+
+.showAlbum-title {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.showAlbums .showAlbum {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(147, 182, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid rgb(129, 161, 170);
+}
+
+.showAlbums .showAlbum:hover {
+    background-color: #0dcaf0;
+}
+
+.choose {
+    background-color: #0dcaf0 !important;
+}
+
+.card-group {
+    height: calc(100vh - 60px);
+    overflow: scroll;
+    border: 1px solid gray;
+}
+
+.card {
+    margin: 0.5rem;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.card-text::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    height: 60px;
+    padding: 10px 0;
+}
+
+.header button {
+    width: 100%;
+    height: 40px;
+}
+
+.header input {
+    height: 40px;
+}
+
+select {
+    height: 40px;
+    border-radius: 4px;
+}
